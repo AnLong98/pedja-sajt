@@ -1,5 +1,15 @@
 /* ensure all pages have Bootstrap CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#1f2833];
+  }
+}
 
 .md-container {
   max-width: 800px;
@@ -23,4 +33,49 @@
 .sml-logo {
   height: 1em;
   margin-left: 10px;
+}
+
+.nav-links {
+  font-size: x-large;
+  transition: 0.3s ease;
+  color: #ffffff;
+  font-size: x-large;
+  text-decoration: none;
+  border-top: 4px solid #1f2833;
+  border-bottom: 4px solid #1f2833;
+  padding: 8px 0;
+  margin: 0 8px;
+  }
+  
+.nav-links:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+
+.navbar-font{
+  font-family: Stencil Std, fantasy;
+  font-style: italic;
+}
+
+.central-image{
+  border-radius: 50% !important;
+  width: 200px !important;
+  height: 200px !important;
+}
+
+
+.splash-container{
+  width: 100%;
+  height: 200px;
+}
+.central-image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.navbar-color{
+  background:  #000000 !important;
 }
