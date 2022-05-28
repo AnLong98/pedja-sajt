@@ -21,12 +21,12 @@ export default function About({ children }) {
                     HI THERE,<br></br> 
                 </p>
                 <p className='font-marker font-bold text-7xl text-[#66fcf1]'>
-                        I'm Predrag Glavaš<br></br>
+                        I'm Predrag Glavas<br></br>
                 </p>
             </div>
             <div className="row-span-2 col-span-2 mt-0 pt-0">
                 <p className='font-mono text-justify text-xl text-white'>
-                    Full stack developer from Novi Sad, Serbia. Specialized in web development, network programming and distributed systems. I hold MSc degree in computer science with research focus on time series prediction models, more specifically ARIMA family. Always willing to learn new technologies, and try exciting stuff ;)
+                    Full stack developer from Novi Sad, Serbia, specialized in web development and network programming. On the front-end part I favour Angular, but I also have some experience developing React and Next.js apps. On the back end my preferred technologies are C#/.NET and Python/Django. While working as a teaching assistant at University of Novi Sad I developed an interest in data science and optimization algortihms. I hold MSc degree in computer science with research focus on time series prediction models, more specifically ARIMA family. Always willing to learn new technologies, and try exciting stuff ;)
                 </p>
             </div>
         </div>

@@ -30,16 +30,16 @@ export default function Header(){
   ];
 
   return (
-    <div>
+    <div >
       <Navbar light expand="md">
-        <NavbarBrand className="text-white navbar-font text-4xl" href="/" >Pedja G </NavbarBrand>
+        <NavbarBrand className="text-white navbar-font text-4xl" >Pedja G </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
           {
           navbarItems.map(el=>
-            <NavItem>
-                <NavLink  key={el.index} className={'text-white nav-links'} href={el.link}><a>{el.text}</a></NavLink>
+            <NavItem key={el.index}>
+                <NavLink  key={el.text} className={'text-white nav-links'} href={el.link}><a>{el.text}</a></NavLink>
             </NavItem>
           )
           }
