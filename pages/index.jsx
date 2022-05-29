@@ -8,8 +8,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>ReactJS with reactstrap</title>
+        <title>Predrag Glavas</title>
         <link rel="icon" href="/favicon-32x32.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin='true'></link>
       </Head>
         <About />
     </div>
