@@ -12,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon-32x32.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin='true'></link>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"></link>
       </Head>
         <About />
     </div>
