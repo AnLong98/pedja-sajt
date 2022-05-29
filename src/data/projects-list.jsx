@@ -1,9 +1,9 @@
-import arima from "../../public/arima.png"
-import tf from "../../public/teams_filtering.png"
-import snake from "../../public/snake.png"
-import ftp from "../../public/ftp.png"
-import cv from "../../public/cv.png"
-import smart from "../../public/smart.png"
+import arima from "../../public/arima.webp"
+import tf from "../../public/teams_filtering.webp"
+import snake from "../../public/snake.webp"
+import ftp from "../../public/ftp.webp"
+import cv from "../../public/cv.webp"
+import smart from "../../public/smart.webp"
 export const projectsList = [
     {
         name:"Crypto ARIMA",

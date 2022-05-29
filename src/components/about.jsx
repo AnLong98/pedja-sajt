@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import pedja from "../../public/pedja.jpg"
+import pedja from "../../public/pedja.webp"
 
 export default function About({ children }) {
     return (
