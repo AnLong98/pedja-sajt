@@ -17,15 +17,15 @@ export default function Header(){
   const navbarItems = [
     {
     text:"Projects",
-    link:"#projects"
+    link:"/projects"
     },
     {
       text:"About",
-      link:"#about"
+      link:"/"
     },
     {
       text:"Contact",
-      link:""
+      link:"/contact"
     },
   ];
 
@@ -39,7 +39,7 @@ export default function Header(){
           {
           navbarItems.map(el=>
             <NavItem key={el.index}>
-                <NavLink  key={el.text} className={'text-white nav-links'} href={el.link}><a>{el.text}</a></NavLink>
+              <Link href={el.link} passHref><NavLink  key={el.text} className={'text-white nav-links'}>{el.text}</NavLink></Link>
             </NavItem>
           )
           }
