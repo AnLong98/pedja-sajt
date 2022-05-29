@@ -12,7 +12,7 @@ export default function Projects({children}){
 
                     <div className="m-5 max-w-sm bg-white rounded-lg border-[#66fcf1] shadow-md border-solid border-6">
                         <div className='h-[208px] container'>
-                            <Image class="rounded-t-lg mx-auto"  src={el.image} alt="" />
+                            <Image className="rounded-t-lg mx-auto"  src={el.image} alt="" priority />
                         </div>
                         <div className="p-5">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{el.name}</h5>

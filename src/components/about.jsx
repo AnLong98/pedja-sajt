@@ -13,6 +13,7 @@ export default function About({ children }) {
                     layout="fill" // required
                     objectFit="cover" // change to suit your needs
                     className="rounded-full " // just an example
+                    priority
                     />
                 </div>
             </div>
