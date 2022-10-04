@@ -10,22 +10,25 @@ import {
   NavLink,
 } from 'reactstrap';
 
-export default function Header(){
+export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
   const navbarItems = [
     {
-    text:"Projects",
-    link:"/projects"
+      key: 1,
+      text: "Projects",
+      link: "/projects"
     },
     {
-      text:"About",
-      link:"/"
+      key: 2,
+      text: "About",
+      link: "/"
     },
     {
-      text:"Contact",
-      link:"/contact"
+      key: 3,
+      text: "Contact",
+      link: "/contact"
     },
   ];
 
@@ -36,13 +39,13 @@ export default function Header(){
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-          {
-          navbarItems.map(el=>
-            <NavItem key={el.index}>
-              <Link href={el.link} passHref><NavLink  key={el.text} className={'text-white nav-links'}>{el.text}</NavLink></Link>
-            </NavItem>
-          )
-          }
+            {
+              navbarItems.map(el =>
+                <NavItem key={el.key}>
+                  <Link href={el.link} passHref><NavLink key={el.text} className={'text-white nav-links'}>{el.text}</NavLink></Link>
+                </NavItem>
+              )
+            }
           </Nav>
         </Collapse>
       </Navbar>
