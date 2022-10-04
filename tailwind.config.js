@@ -7,8 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'marker': ['"Permanent Marker"', 'cursive'],
+      },
     },
-  },
     borderWidth: {
       DEFAULT: '1px',
       '0': '0',
@@ -18,7 +18,7 @@ module.exports = {
       '6': '6px',
       '8': '8px',
     }
-      
+
   },
   plugins: [],
 }
